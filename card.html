@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+     <style>
+        .card{
+            width: 300px;
+            background-color: rgb(255, 255, 255);
+            border: 0.5px solid rgb(219, 215, 215);
+            font-family: serif;
+           overflow: hidden;
+            
+            
+        }
+        img{
+            margin-bottom: 50px;
+            margin-top: 20px;
+            width: 75%;
+        }
+            
+            .icon{
+            color:gold; 
+        }
+       
+        
+        .card:hover{
+            border: 1.5px solid rgb(35, 226, 35);
+            box-shadow: rgba(41, 40, 40, 0.24) 0px 4px 10px;
+            transition: 0.3s;
+           
+            
+            
+        }
+      
+        body{
+            background:rgb(249, 246, 246);
+        }
+          
+        button{
+            border: 1.5px solid rgb(17, 215, 17);
+            
+
+            border-radius: 5px;
+        }
+       button:hover{
+        background-color:rgb(17, 215, 17) ;
+        color: aliceblue;
+       }
+       del{
+        color: rgb(144, 142, 142);
+       }
+       p{
+        padding-top: 12px;
+       }
+      
+       .btn:hover{
+        background-color:rgb(17, 215, 17) ;
+        color: aliceblue;
+       }
+       .btn{
+        box-shadow: rgba(41, 40, 40, 0.24) 0px 4px 10px;
+       }
+       .card-product:hover 
+       .card-product-action {
+         opacity: 1;
+         visibility: visible;
+         
+      } 
+
+       .card-product-action {
+         visibility: hidden;
+         top: 190px;
+         left: 82px;
+         z-index: 10px;
+         line-height: 20px;
+         
+       }
+       .popular{
+         background: #2c3e50;
+         color: #fff;
+         justify-content: center;
+         text-align: center;
+         position: absolute;
+         transform: rotate(-45deg);
+         padding: 5px 40px;
+         top: 9px;
+         left: -35px;
+       }
+       .one:hover{
+         transform: scale(1.1);
+       }
+       
+      </style>
+</head>
+<body>
+   <div class="card card-product my-4   mx-auto">
+   <div class=" card-body d-inline-block"> 
+    <img class=" d-block mx-auto" src="./images/HA244.jpg" alt="">
+    <div class="card-product-action position-absolute " >
+       <button class=" btn btn-light"> <i class="bi bi-heart " ></i></button>
+       <button class=" btn btn-light"> <i class="bi bi-eye "></i></button>
+       <button class=" btn btn-light"> <i class="bi bi-arrow-left-right"></i></button>
+       
+   </div>
+
+    <h2>Macbook</h2>
+    <div class=" icon">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    </div><br>
+    
+   <div class=" d-flex justify-content-between align-items-center mt-3">
+      <p><b>$50</b><del >($75)</del></p>
+      <button >+ Add</button>
+   </div>
+    
+   </div>
+
+  </div>
+
+  <div class="card ms-3 d-inline-block">
+    <div class=" card-body d-inline-block"> 
+     <img class=" d-block mx-auto" src="./images/HA244.jpg" alt="">
+     <h2>Macbook</h2>
+     <div class=" icon">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      </div><br>
+     
+    <div class=" d-flex justify-content-between align-items-center mt-3">
+       <p><b>$450</b><del >($500)</del></p>
+       <button >+ Add</button>
+    </div>
+     
+    </div>
+ 
+   </div>
+
+   <div class="card  ms-3  d-inline-block">
+    <div class=" card-body d-inline-block"> 
+     <img class=" d-block mx-auto" src="./images/61l9ppRIiqL._SX522_.jpg" alt="">
+     <h2>iphone 12</h2>
+     <div class=" icon">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      </div><br>
+     
+    <div class=" d-flex justify-content-between align-items-center mt-3">
+       <p><b>$250</b><del >($270)</del></p>
+       <button >+ Add</button>
+    </div>
+     
+    </div>
+ 
+   </div>
+
+   <div class="card  ms-3  d-inline-block">
+    <div class=" card-body d-inline-block"> 
+     <img class=" d-block mx-auto" src="./images/617FFRO3vcL._SL1500_.jpg" alt="">
+     <h2>iphone 12 pro</h2>
+     <div class=" icon">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      </div><br>
+    <div class=" d-flex justify-content-between align-items-center mt-3">
+       <p><b>$300</b><del >($320)</del></p>
+       <button >+ Add</button>
+    </div>
+     
+    </div>
+ 
+   </div>
+
+   <div class="one card  ms-3  d-inline-block ">
+    <div class=" card-body d-inline-block"> 
+      <div class="popular">Popular</div>
+     <div class=""><img class=" d-block mx-auto" src="./images/71ZDY57yTQL._SL1500_.jpg" alt=""></div>
+     
+     <h2>iphone 13 pro</h2>
+     <div class=" icon">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      </div><br>
+     
+    <div class=" d-flex justify-content-between align-items-center mt-3">
+       <p><b>$350</b><del >($380)</del></p>
+       <button >+ Add</button>
+    </div>
+     
+    </div>
+ 
+   </div>
+
+   
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br> 
+   <br>
+</body>
+</html>
